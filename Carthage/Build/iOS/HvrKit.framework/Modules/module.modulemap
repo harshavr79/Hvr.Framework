@@ -1,0 +1,11 @@
+framework module HvrKit {
+  umbrella header "HvrKit.h"
+
+  export *
+  module * { export * }
+}
+
+module HvrKit.Swift {
+    header "HvrKit-Swift.h"
+    requires objc
+}
